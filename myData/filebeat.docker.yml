@@ -1,0 +1,6 @@
+filebeat.inputs:
+- type: log
+  paths:
+    - /tmp/log/SYSTEM.log
+output.elasticsearch:
+  hosts: ["http://9.197.12.27:9200"]
